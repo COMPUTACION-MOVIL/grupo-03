@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Lab1UI</string>
+    <string name="obligatorio">* Campo Obligatorio</string>
+    <string name="Nombres">Nombres*</string>
+    <string name="Apellidos">Apellidos</string>
+    <string name="Sexo">Sexo</string>
+    <string name="Direccion">Dirección</string>
+    <string name="e_mail">e-mail*</string>
+    <string name="Telefono">Teléfono*</string>
+    <string name="Hobbies">Hobbies</string>
+    <string name="Fecha_nacimiento">Fecha de nacimiento</string>
+    <string name="Pais">País*</string>
+    <string name="Favorito">Favorito</string>
+    <string name="Mostrar">Mostrar</string>
+    <string name="Otro">Otro</string>
+    <string name="Mujer">Mujer</string>
+    <string name="Hombre">Hombre</string>
+    <string name="Es_Favorito">Contacto es favorito</string>
+    <string name="No_Es_Favorito">Contacto es favorito</string>
+    <string-array name="paises">
+        <item>Argentina</item>
+        <item>Bolivia</item>
+        <item>Chile</item>
+        <item>Colombia</item>
+        <item>Costa Rica</item>
+        <item>Cuba</item>
+        <item>Ecuador</item>
+        <item>El Salvador</item>
+        <item>Guatemala</item>
+        <item>Honduras</item>
+        <item>México</item>
+        <item>Nicaragua</item>
+        <item>Panamá</item>
+        <item>Paraguay</item>
+        <item>Perú</item>
+        <item>Puerto Rico</item>
+        <item>República Dominicana</item>
+        <item>Uruguay</item>
+        <item>Venezuela</item>
+    </string-array>
+    <string-array name="hobbies">
+        <item>Comer</item>
+        <item>Dormir</item>
+        <item>Programar en Android</item>
+        <item>Utilizar juegos de video</item>
+        <item>Ver televisión</item>
+        <item>Leer</item>
+        <item>Ir al cine</item>
+        <item>Salir de rumba</item>
+    </string-array>
+</resources>
