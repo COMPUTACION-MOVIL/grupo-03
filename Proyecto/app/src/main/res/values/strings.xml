@@ -1,4 +1,17 @@
 <resources>
     <string name="app_name">Mi parqueadero</string>
     <string name="title_activity_maps">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="info"> HORARIO </string>
+    <string name="dias"> LUNES A SABADO </string>
+    <string name="horas"> 8:00 AM - 8:00 PM </string>
+    <string name="tarifahora"> TARIFA HORA </string>
+    <string name="carro"> Carro: 2500 </string>
+    <string name="moto"> Moto: 1000 </string>
+    <string name="tarifadia"> TARIFA DIA </string>
+    <string name="carrod"> Carro: 20000 </string>
+    <string name="motod"> MOto: 10000 </string>
+
 </resources>

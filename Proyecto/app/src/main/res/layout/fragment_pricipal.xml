@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.jfernandomosquera.myapplication.PricipalFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton"
+        android:background="@drawable/parqueo"
+        android:layout_above="@+id/ir_reg"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClickImagen"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registrar parqueadero"
+        android:id="@+id/ir_reg"
+        android:onClick="onclic_regis"
+        android:layout_marginBottom="146dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="comentarios"
+        android:id="@+id/comentarios"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="73dp"
+        android:onClick="coment" />
+
+
+
+</RelativeLayout>
