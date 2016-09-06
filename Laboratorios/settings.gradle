@@ -1,1 +1,2 @@
-include ':Lab1UI'
+include ':Lab1UI', 'Lab2Activitie'
+project('Lab2Activitie').projectDir = new File('Lab2Activities')
