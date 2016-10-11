@@ -2,6 +2,7 @@
     <string name="app_name">Mi parqueadero</string>
     <string name="title_activity_maps">Map</string>
 
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="info"> HORARIO </string>
@@ -13,5 +14,6 @@
     <string name="tarifadia"> TARIFA DIA </string>
     <string name="carrod"> Carro: 20000 </string>
     <string name="motod"> MOto: 10000 </string>
+    <string name="google_maps_key">AIzaSyCkey7mx31kQbKXtvLgfOzYFITYkACIy5c</string>
 
 </resources>

@@ -10,10 +10,14 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 
+import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.OnMapReadyCallback;
 
-public class MainActivity extends AppCompatActivity{
+
+public class MainActivity extends AppCompatActivity implements OnMapReadyCallback {
 
     ImageButton btnParqueadero;
+    private FirstMap myMapa;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +31,12 @@ public class MainActivity extends AppCompatActivity{
         Fragment fragment = new PricipalFragment();
         ft.add(R.id.container, fragment);
         ft.commit();
+
+        myMapa=FirstMap.newInstance();
+        getSupportFragmentManager()
+                .beginTransaction()
+                .add(R.id.container,myMapa)
+                .commit();
 
 
     }
@@ -62,5 +72,10 @@ public class MainActivity extends AppCompatActivity{
         Fragment fragment = new PricipalFragment();
         ft.replace(R.id.container, fragment);
         ft.commit();
+    }
+
+    @Override
+    public void onMapReady(GoogleMap googleMap) {
+
     }
 }
