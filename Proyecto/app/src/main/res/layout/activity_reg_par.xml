@@ -11,59 +11,113 @@
     android:orientation="vertical">
 
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="Registrar parqueaderos"
-        android:id="@+id/registrartitulo"
-        android:layout_gravity="center_horizontal" />
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:hint="Name"
-        android:ems="10"
-        android:id="@+id/editText"
-        android:layout_gravity="center_horizontal" />
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/editText2"
-        android:layout_gravity="center_horizontal"
-        android:hint="horario" />
+      <LinearLayout
+          android:orientation="vertical"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/editText3"
-        android:layout_gravity="center_horizontal"
-        android:hint="valor hora" />
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textAppearance="?android:attr/textAppearanceSmall"
+              android:text="Registrar parqueadero"
+              android:id="@+id/registrartitulo"
+              android:layout_gravity="center_horizontal" />
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/editText4"
-        android:layout_gravity="center_horizontal"
-        android:hint="valor dia" />
+          <EditText
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/editCodigo"
+              android:layout_gravity="center_horizontal"
+              android:hint="codigo"/>
+
+          <EditText
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:inputType="textPersonName"
+              android:hint="NOMBRE"
+              android:ems="10"
+              android:id="@+id/editNombrepar"
+              android:layout_gravity="center_horizontal" />
+
+          <EditText
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/editHorario"
+              android:layout_gravity="center_horizontal"
+              android:hint="horario" />
+
+          <EditText
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/editLocalizacionX"
+              android:layout_gravity="center_horizontal"
+              android:hint="localizacionX"/>
+
+          <EditText
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/editLocalizacionY"
+              android:layout_gravity="center_horizontal"
+              android:hint="localizacionY"/>
+
+          <EditText
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/editHoraM"
+              android:layout_gravity="center_horizontal"
+              android:hint="valor hora moto" />
+
+          <EditText
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/editValorDiaM"
+              android:layout_gravity="center_horizontal"
+              android:hint="valor dia moto" />
+
+          <EditText
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/editHoraC"
+              android:layout_gravity="center_horizontal"
+              android:hint="valor hora carro" />
+
+
+
+          <EditText
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/editValorDiaC"
+              android:layout_gravity="center_horizontal"
+              android:hint="valor dia carro" />
+
+
 
     <Button
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="registrar"
-        android:id="@+id/registrar"
-        android:layout_gravity="center_horizontal" />
+              style="?android:attr/buttonStyleSmall"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="registrar"
+              android:id="@+id/registrar"
+              android:layout_gravity="center_horizontal"
+              android:onClick="registrar"
+              android:nestedScrollingEnabled="false" />
 
-    <Button
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="inicio"
-        android:id="@+id/inicio"
-        android:onClick="inicio"/>
+          <Button
+              style="?android:attr/buttonStyleSmall"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="inicio"
+              android:id="@+id/inicio"
+              android:onClick="inicio"/>
+      </LinearLayout>
+   </ScrollView>
+
 
 
 </LinearLayout>

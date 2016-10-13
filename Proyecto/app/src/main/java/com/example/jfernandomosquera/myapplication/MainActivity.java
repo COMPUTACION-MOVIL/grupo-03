@@ -32,11 +32,11 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         ft.add(R.id.container, fragment);
         ft.commit();
 
-        myMapa=FirstMap.newInstance();
-        getSupportFragmentManager()
-                .beginTransaction()
-                .add(R.id.container,myMapa)
-                .commit();
+        //myMapa=FirstMap.newInstance();
+        //getSupportFragmentManager()
+          //      .beginTransaction()
+           //     .add(R.id.container,myMapa)
+             //   .commit();
 
 
     }
